@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #91ffe3;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+}
+
+h1 {
+	font-size: 4em;
+	font-weight: 200;
+	margin-top: 0;
+}
+
+.wrap {
+	background: hsla(255, 100.0000%, 100%, 0.5000);
+	border: 1px solid #111;
+	border-radius: 3px;
+	min-height: 44em;
+	margin: 0 auto;
+	padding: 1.5em;
+	max-width: 22em;
+}
