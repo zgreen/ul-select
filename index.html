@@ -7,6 +7,9 @@
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="example.css">
+    <link rel="stylesheet" href="ul-select.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -40,7 +43,21 @@
 <li>Load jQuery.</li>
 <li>Load the ul-select.css, or complile the Sass partial.</li>
 <li>Call <code>ulSelect()</code> on the unordered list that you want to render as a select element.</li>
-</ol><p><a href="http://codepen.io/zgreen/full/dGEin/">Example here</a></p>
+</ol>
+<h2>Example</h2>
+  <ul id="example-select">
+    <li>Option #1</li>
+    <li>Option #2</li>
+    <li>Option #3</li>
+    <li>Option #4</li>
+    <li>Option #5</li>
+    <li>Option #6</li>
+  </ul>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="ul-select.js"></script>
+  <script>
+  $('#example-select').ulSelect();
+  </script>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/zgreen">zgreen</a></p>
