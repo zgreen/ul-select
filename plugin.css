@@ -1,0 +1,82 @@
+ul.zg-ul-select {
+  border-radius: 2px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+}
+ul.zg-ul-select li {
+  border-radius: 3px;
+  display: none;
+  padding: 0.5em;
+}
+ul.zg-ul-select li.active {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid #111;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 2px #aaa;
+  box-shadow: 0 0 2px #aaa;
+  color: #111;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+ul.zg-ul-select.active {
+  border: 1px solid #aaa;
+}
+ul.zg-ul-select.active li {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  display: block;
+}
+ul.zg-ul-select.active li:hover {
+  background: #0074d9;
+}
+ul.zg-ul-select.active li.active {
+  background: #40a6ff;
+}
+ul.zg-ul-select.active li.active:hover {
+  background: #0074d9;
+}
+
+#selected--zg-ul-select {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #111;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 2em;
+  width: auto;
+}
+#selected--zg-ul-select.active {
+  border: 1px solid #111;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 2px #aaa;
+  box-shadow: 0 0 2px #aaa;
+  padding: 0.5em;
+}
