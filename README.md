@@ -9,4 +9,4 @@ Make an unordered list behave like a select element
 2. Load the ul-select.css, or complile the Sass partial.
 3. Call `ulSelect()` on the unordered list that you want to render as a select element.
 
-[Example here](http://codepen.io/zgreen/full/dGEin/)
+[Example here](http://zgreen.github.io/ul-select)
