@@ -3,7 +3,7 @@ ul-select
 
 Make an unordered list behave like a select element
 
-## THIS PLUGIN DEPRECATED AND IS NO LONGER MAINTAINED.
+## THIS PLUGIN IS DEPRECATED AND IS NO LONGER MAINTAINED.
 
 Feel free to use it if you like, but there are [better options available](https://select2.org/).
 
